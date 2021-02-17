@@ -1,0 +1,356 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+    box-sizing: border-box;
+    /*font-family: 'Cairo', sans-serif;*/
+}
+
+/* THIS IS FOR THE INDEX */
+#dropdwn {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#menu {
+
+    height: 80px;
+    width: 100%;
+    background-color: #002147;
+    box-shadow: 0 10px 15px rgba(0;
+    0;
+    0;
+    0.1);
+    color: white;
+
+}
+
+
+.Logo {
+    float: left;
+    height: 80px;
+    width: 195px;
+
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    float: right;
+    background-color:#002147;
+    margin-right: 50px;
+}
+
+nav ul li {
+
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav ul li a h3 {
+    display: block;
+    padding: 0 15px;
+    background-color: #002147;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    padding-top: 20px;
+
+}
+
+nav ul :hover {
+    background: #061640;
+    height: 60px;
+}
+
+.Hero img {
+
+    width: 100%;
+    padding: 0px;
+    height: 560px;
+}
+
+.Hero p {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    font-family: tahoma;
+    font-size: 25px;
+    word-spacing: 30px;
+    color: white;
+    text-align: center;
+}
+
+.Hero p:hover {
+    color: black;
+}
+
+#Hero2 {
+    text-align: center;
+    color: #002147;
+    font-family: arial;
+    padding-top: 70px;
+    text-decoration: underline;
+}
+
+.HERO {
+    max-width: 1200px;
+    margin: auto;
+    font-family: tahoma;
+    font-size: 25px;
+    color: #313f51;
+    overflow: auto;
+    margin-top: 50px;
+}
+
+.gallery {
+    margin: 5px;
+    float: left;
+    width: 390px;
+    padding-top: 90px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.gallery1 {
+    margin: 5px;
+    float: left;
+    width: 390px;
+}
+
+.1 img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.desc1 {
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.law img {
+    float: left;
+    margin-left: 35px;
+    width: 350px;
+    position: absolute;
+    margin-bottom: 200px;
+}
+
+.Apply {
+    margin-top: 4%;
+    background-color: #313f51;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-left: 150px;
+    font-family: tahoma;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.Apply:hover {
+    background-color: #2980b9;
+}
+
+.Apply:focus {
+    box-shadow: 0 0 10px 4px #34495e;
+}
+
+#A {
+    background: #dedede;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* THIS IS FOR THE COURSES & ABOUT & EVENTS */
+
+#container-AboutUs {
+    background: #002147;
+}
+
+.PAboutUs {
+    color: #cec0ae;
+    font-family: "times new roman";
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 40PX;
+    padding-right: 40px;
+
+
+}
+
+.textAboutUs {
+    text-align: left;
+    font-size: 25px;
+    font-family: "Times New Roman";
+    background: white;
+    box-shadow: 0px 5px 15px black;
+    margin: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-indent: 30px;
+}
+
+#Hero4 {
+    text-align: left;
+    list-style-type: upper-alpha;
+}
+
+.title {
+    font-size: 25px;
+    margin-left: 400px;
+    padding: 10px;
+}
+
+.date {
+    color: blue;
+    margin-left: 400px;
+    font-size: 20px;
+
+}
+
+.textevents {
+    font-family: "Times New Roman";
+    font-size: 25px;
+    margin-left: 400px;
+}
+
+.boxevents {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    margin: 15px;
+    background: white;
+    box-shadow: 0px 5px 15px black;
+}
+
+
+
+
+/* THIS IS FOR THE CONTACT US */
+
+
+.HERO2 {
+    padding:30px;
+    background: #002147;
+    position: relative;
+    list-style-type: none;
+    padding-top: 20px;
+    text-align: center;
+
+
+
+}
+
+.contact ul li {
+
+    list-style: none;
+    display: inline-block;
+    padding-left: 80px;
+
+}
+
+.contact ul li h2 {
+    display: block;
+    padding: 0 15px;
+    background-color: #002147;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+
+}
+
+
+/*Cntact Us*/
+
+.contact-section {
+    background: url(IMAGES/bg.png) no-repeat center;
+    background-size: cover;
+    padding: 40px 0;
+}
+
+.contact-section h1 {
+    text-align: center;
+    color: #ddd;
+}
+
+.border {
+    width: 100px;
+    height: 10px;
+    background: #34495e;
+    margin: 40px auto;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.contact-form-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+}
+
+.contact-form-text:focus {
+    box-shadow: 0 0 10px 4px #34495e;
+}
+
+textarea.contact-form-text {
+    resize: none;
+    height: 120px;
+}
+
+.contact-form-btn {
+    float: right;
+    border: 0;
+    background: #34495e;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-form-btn:hover {
+    background: #2980b9;
+}
+
+footer {
+    background-color: #002147;
+    color: #fff;
+    text-align: center;
+    padding: 1.2rem;
+
+}
